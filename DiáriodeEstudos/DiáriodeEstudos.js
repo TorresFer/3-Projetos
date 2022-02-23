@@ -76,4 +76,15 @@ primeira página. Assim é anexado sempre em um único link tudo aquilo que vc q
 div - divisao ou seção; ocupa uma linha.
 span - agrupa elementos em uma linha/inline; comportamento podendo ser mudados em CSS
 
+23/02
+- CSS é muito flexível e possui diversas formas de fazer algo
+    - O bootstrap é um FW de CSS que possui layouts prontos para criar as coisas, o que
+    facilita muito na criação das aplicações; cria códigos mais simples
+    - Aplica-se estilos com "Class" ou Classes, pois é o melhor caminho; mas vc pode usar id, tags etc
+    - É sempre melhor com classes enxutas, para ter maior reuso de cógidos; diminuir a qntd de responsabilidades
+    de um único seletor/classe
+    - Utilize sempre as mesmas regras de nomeclaturas para seu CSS: ex. 
+- CSS hj é dvidido em módulos independentes de criação: Flexbox, CSS grid...
+- 
+
 */
