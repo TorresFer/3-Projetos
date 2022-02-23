@@ -31,16 +31,17 @@ HTML
     é a <<componentização>> e reutilização de códigos.
     - <!-- Estrutura e Semantica/Significado de cada TAG de HTML-->
 
+<<HTML>>
+
 17/02
 - HTML
 - CSS
     - Preprocessadores: SAS, LESS
     - Referencia as tags com "id" ou "class";
     - É referenciado por "."(atributo novo) ou "#" (id ou identificador maior já criado); 
-    vc pode referenciar mais de uma classe com cores e tipos associados
-    a uma TAG;
+    vc pode referenciar mais de uma classe com cores e tipos associados a uma TAG;
         - Pelo QuerySelector no browser, acha-se o elemento pelo ID(#), Classe (.) 
-     - É possível colocar 2 classes em um span
+     - É possível colocar 2 classes em um span;
 Live Server para referenciar http melhor. Simula o local para as páginas dinamicas e estáticas
 
 18/02
@@ -64,6 +65,15 @@ primeira página. Assim é anexado sempre em um único link tudo aquilo que vc q
     - PNG possui transparencia nas imagens-->
     - Class são sempre criadas em CSS, assim como "." "#"-->
 - Vc pode referenciar todos os links das imagens e após isso criar Classes CSS para customizar as imagens, mudar o formato, as cores, cores do fundo...
-    -  
+- Vídeos em HTML: referenciando e exportando para web; criando e editando botões e barras de progresso do vídeo
+
+22/02
+- Vídeo
+- Tags não visuais: Div (divisoes com componentes/elementos dentros), Span (); são agrupadores, assim vc pode colocar elementos e aplicar estilos
+    - Semanticas: Traz significados por traz delas
+    - As Famosas: div e span
+
+div - divisao ou seção; ocupa uma linha.
+span - agrupa elementos em uma linha/inline; comportamento podendo ser mudados em CSS
 
 */
