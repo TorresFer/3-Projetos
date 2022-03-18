@@ -1,0 +1,11 @@
+body {
+    font-family: monospace;
+    background-color: black;
+}
+
+.contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
