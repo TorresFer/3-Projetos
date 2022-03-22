@@ -7,3 +7,7 @@ O objetivo desse repositório é anexar 3 projetos práticos que criei e que est
   1. Login-Helper
   2. GuessNumber
   3. Star-Devs
+
+1. Tela de Login:
+![Tela de Login](https://user-images.githubusercontent.com/93451006/159493807-758f12b3-6015-489c-b77c-2640e697e2f3.png)
+Obs: Estilizações, sombreamentos, efeito hoover, links externos associados e demais funcionalidades implementadas.
