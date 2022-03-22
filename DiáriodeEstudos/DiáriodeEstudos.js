@@ -160,10 +160,115 @@ em formato HTML, para criação de elementos React.
     - Estabelecendo tamanhos, margens, alinhando itens, float e sombra no box
 - Flex Box e CSS Grid (Grid é mais atual) e se complementam:
     - Flex Box: Layout/display flex, unidirecional (linha ou coluna)
-        - O css possui Caixas/Conteainers; mas com FlexBox, que é marcado por display-flex, vc alinha o display e seus itens
+        - O css possui Caixas/Conteainers; mas com FlexBox, que é marcado por display-flex, vc alinha o display
+        e seus itens
     - CSS Grid: Layout macro da aplicação, ex: Header, Menu, Content, Footer... (linhas E colunas) 
+
+04/03
 - Flexbox
+    - Ele faz os layouts na Web; Organiza no ReactNative ou tbm no Flutter; + Aplicado que o CSS Grid; 
+        - Criando o flexbox -> display: flex
+        - Alterando as estruturas desse box: tamanho, posição, ordem etc.
+        - Testando funcionalidades; aumentando partes do box/grow e encolhendo/shrink
+        - Aplicado tudo de uma vez: grow, shrink, basis
+- Desafio Menu com Flex Box
+    - Solução mais rápida e unidirecional
+    - Cross Axis - e Main Axis |; que pode ser trocado com o 'flex-direction'
+    - Revisão Flex Box com projeto utilizando Vue;
+
+07/03 
+- CSS3 
+    - CSS Grid; obs. ele junto ao flexbox é excelente:
+        - Aplicando possibilidades do CSSGrid
+        - Ajustando tamanho de linhas e colunas a cada linha ou coluna no CSS Grid(grade)
+
+08/03
+- CSS Grid: organizando os elementos, posicionado em linhas e colunas diferentes e criando gaps
+- CSS Grid 3: maneira mais simples de posicionamento
+    - Posicionando as classes em grids
+    - A aplicação fica responsiva, cabendo em qualquer dispositivo que esteja visualizando;
+    exibe alguns elementos da página web/layout no mobile e todos no desktop
+- Trabalhando com Eventos, manipulando DOM e integração entre HTML, CSS e JS
+    - Arquivo ZIP dom com os exercícios
+    - DOM: 
+        - Document Object Model, representa a estrutura do HTML e o relacionamento entre os elementos, as tags.
+            - Ele estrutura o HTML sem a necessidade de fazer um por um ou ajustes demorados no futuro
+
+09/03
+- DOM:
+    - Selecionando elementos
+        - Chamando elementos através do ID e selecionando uma lista de classe (classList.add)
+        - Transformando HTML Collections em Array
+        - Chamando HTML Collections através de uma classe
+            - Pode se percorrer essa coleção e criar comando entre as estruturas do html chamado
+        - Selecionado com o QuerySelectorAll (função que chama) de diversas maneiras, cada um dos elementos/classes
+
+10/03
+-  NetflixClone
+    - Criando o React app com create-react-app
+    - Importanto o React com React from 'react';
+    - Utilizando fetch API para importar API
+        - Importando de acordo com cada critério: generos, avaliações etc.
+    - Importando TMDM from './Tmdb'; do arquivo
+    - 
+
+11/03
+- DOM:
+    - Acessando atributos através da DOM 
+    - getattribute('scr') acessa Atributos Personalizados (ex <label for="compras"...>)
+        - getAttribute, setAttribute, hasAttribute, removeAttribute
+    - O importante desse capítulo é mostrar como o JS pode auxiliar a manipular o HTML
+        - Ex: vc consegue selecionar um TAG e trocar o nome dela, sem precisar refazer ou procurar ela
+        em códigos grandes ou Index grandes.
+    - Nem sempre o atributo definido no HTML estará disponível com o mesmo nome a ser chamado pela dom
+        - vc precisa incluir o 'html' "console.log(label.htmlFor)"
+    - Acessando classes através da DOM; utiliza-se o "queryselecor('...').classList" !!!
+        - É feito através do acesso a lista de classes
+
+16/03
+- Testes unitários:
+    - Os testes são realizados a cada função ou método criado (ex: dentro de uma classe) dentro
+    de uma aplicação. Porém, a maneira tradicional é executando o console.log() em cada etapa, 
+    o que torna cansativo e repetitivo. E por esse motivo, é interessante usar aplicações como JEST ou DENO 
+    para testar de maneira mais efetiva e rápida.
+    - Vc n testa de maneira integra, ou seja, tudo que foi escrito no código, apenas uma parte;
+    - Primeiro se faz os testes unitários, e só dps de aprender, faça os integrados com API etc.
+    - Testes unitários podem ser feitos com Deno, JEST ou outros:
+        - O exemplo do vídeo foi realizado com Typescript
+        - Vc cria variáveis/const e digita a função ou a propriedade que vc quer testar
+        - Abre o cmd e testa com "deno test"
+- DOM
+    - Mofificando HTML com o DOM
+        - Criando Elementos CSS a partir do DOM e inserindo eles pelo Javascript no HTML
+    - Em caso de uso de Framework, isso já não precisa mais ser feito, pois eles já fazem
+    essa criação e integração dos elementos
+        - A base é importante para entender melhor como os Frameworks funcionam
+
+17/03
+- Modificando html com o dom(document.queryselector)
+- Controle dos Eventos com essa integração de JS com HTML
+    - Design Patterns - Designs que servem como exemplo de solução de problemas de uma projeto
+        - Ex: Padrão Observer
+    - 1. É sempre bom ao manipular eventos (Ex: mudar o tempo de resposta de um click) de maneira explicita e 
+    não implicita, colocando a ação no corpo da Div e tag HTML, e não no script criado, pois ficará escondido o que
+    está ocorrendo
+        - Além disso, é melhor ainda, depois de criar a função e seus parametros, criar um atributo personalizado
+        que executará o comando criado, através do corpo da tag<a> HTML.
+        - Sempre usando o dom para selecionar/integrar
+    - 2. Eventos - Arrastando o elemento pela tela
+    - 3. Drag and Drop - Troca o lado do elemento na tela; draggzone, dragstart, dragdrop...
+    - 4.
+
+18/03
+- Curso HTML5, CSS3 e JS na prática
+    - Criando Login-Helper:
+        - Estruturando o HTML; criando aba de Login; criando a visualização ou n de Senha;
+
+21/03
+- Login-Helper criado:
+    - HTML, CSS e JS; chamando classes no HTML; chamando HTML no JS com getelementbyID; estilizando a página;
+    - Criando lógica no JS para visualização ou não da senha quando clicar no "eye" e "eyeSlash"
+
 
 */
 
-        
