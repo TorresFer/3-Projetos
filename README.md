@@ -11,3 +11,7 @@ O objetivo desse repositório é anexar 3 projetos práticos que criei e que est
 Tela de Login:
 ![Tela de Login](https://user-images.githubusercontent.com/93451006/159493807-758f12b3-6015-489c-b77c-2640e697e2f3.png)
 Obs: relizado com HTML, CSS e JS. O projeto possui estilizações, sombreamentos, efeito hoover, links externos associados e demais funcionalidades que foram implementadas.
+
+GuessNumber:
+![GuessNumber](https://user-images.githubusercontent.com/93451006/159926035-c94ed42d-cc0d-43a3-830b-09b92bc4f750.png)
+Obs: jogo de lógica criado com HTML, CSS e JS. O objetivo é chutar um número de maneira que a aplicação responda se ele é maior ou menor do que você colocou, e quando acertar vc tem a opção de reiniciar o jogo.
